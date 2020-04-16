@@ -1,0 +1,23 @@
+{
+  "name": "abstr-dbi",
+  "version": "1.0.0",
+  "description": "Database independent interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nosql",
+    "sql",
+    "database",
+    "abstract",
+    "mongodb",
+    "cassandra",
+    "couchdb"
+  ],
+  "author": "Erick Rettozi",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "5.9.9"
+  }
+}
