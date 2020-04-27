@@ -8,9 +8,6 @@ Database independent interface
 ### Example of use with the MongoDB driver 
 
 ```js
-/*
-* For function test work, it's necessary mongodb instance started.
-*/
 const DBI = require('abstr-dbi')
 const dbi = DBI({ driver: 'mongodb' })
 
